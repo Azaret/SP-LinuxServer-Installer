@@ -1,5 +1,6 @@
 #!/bin/bash
 # @author : Purexo
+# https://github.com/purexo/SP-LinuxServer-Installer
 echo "You'll need NodeJS 4.x callable by node keyword, press ctrl-c if you don't have it"
 echo "Or press enter to continue"
 read
