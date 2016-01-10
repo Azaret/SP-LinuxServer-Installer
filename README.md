@@ -2,6 +2,7 @@
 
 ## Prerequisitory
 - NodeJS 4.x : https://nodejs.org/en/download/package-manager/
+- NodeJS binary = node (not nodejs)
 
 just run
 
