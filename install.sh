@@ -4,15 +4,8 @@ echo "You'll need NodeJS 4.x callable by node keyword, press ctrl-c if you don't
 echo "Or press enter to continue"
 read
 
-echo 'Where do you want install superpowers ? (default ./superpowers)'
-read SP_PATH
-git clone https://github.com/superpowers/superpowers $SP_PATH
-
-if [ $SP_PATH = "" ]; then
-    cd superpowers
-else
-    cd $SP_PATH
-fi
+git clone https://github.com/superpowers/superpowers
+cd superpowers
 
 mkdir systems
 
