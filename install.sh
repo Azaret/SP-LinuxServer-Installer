@@ -5,7 +5,7 @@ echo "You'll need NodeJS 4.x callable by node keyword, press ctrl-c if you don't
 echo "Or press enter to continue"
 read
 
-git clone https://github.com/superpowers/superpowers
+git clone https://github.com/superpowers/superpowers --recursive
 cd superpowers
 
 mkdir systems
