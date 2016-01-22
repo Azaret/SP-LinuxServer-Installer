@@ -3,7 +3,8 @@
 ## Prerequisitory
 - NodeJS 4.x : https://nodejs.org/en/download/package-manager/
 - NodeJS binary = node (not nodejs)
-- for node-gyp : have make and g++ (for debian `apt-get install build-essential make`
+- <del> for node-gyp : have make and g++ (for debian `apt-get install build-essential make` </del>
+    - Plus besoin depuis la release 0.19
 
 ## Install Script
 just run
