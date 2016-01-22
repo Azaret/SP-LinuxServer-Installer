@@ -15,6 +15,8 @@ and follow instruction.
 ## Update Script
 **cd in your root Superpower folders**
 
+**Stop your Superpowers Instance**
+
 and run
 
     bash <(wget -qO- https://raw.githubusercontent.com/purexo/SP-LinuxServer-Installer/master/maj.sh)
