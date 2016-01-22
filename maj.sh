@@ -8,6 +8,12 @@ function npm_update {
   npm run build
 }
 
+function run_instructions {
+  echo 'Superpowers is ready and update (with your already installed systems)
+  echo 'run "node server start" and access it with "http://localhost:4237/" adress'
+  echo 'press ctrl-c to cancel it'
+}
+
 git_update
 
 cd systems
@@ -23,6 +29,4 @@ cd ../
 
 npm_update
 
-echo 'Superpowers is ready and update (with your already installed systems)
-echo 'run "node server" and access it with "http://localhost:4237/" adress'
-echo 'press ctrl-c to cancel it'
+run_instructions
