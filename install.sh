@@ -8,14 +8,14 @@ function npm_update {
 }
 
 function prerequisitory_warning {
-  echo "You'll need NodeJS 4.x callable by node keyword, press ctrl-c if you don't have it"
+  echo "You'll need NodeJS 4.x callable with node keyword, press ctrl-c if you don't have it"
   echo "Or press enter to continue"
   read
 }
 
 function run_instructions {
-  echo 'Superpowers is ready and install with supGame, supWeb, and supLove systems'
-  echo 'run "node server start" and access it with "http://localhost:4237/" adress'
+  echo 'Superpowers is ready and installed with supGame, supWeb, and supLove systems'
+  echo 'run "node server start" and access it with "http://localhost:4237/" address'
   echo 'press ctrl-c to cancel it'
 }
 
