@@ -9,8 +9,8 @@ function npm_update {
 }
 
 function run_instructions {
-  echo 'Superpowers is ready and update (with your already installed systems)
-  echo 'run "node server start" and access it with "http://localhost:4237/" adress'
+  echo 'Superpowers is ready and updated (with your already installed systems)
+  echo 'run "node server start" and access it with "http://localhost:4237/" address'
   echo 'press ctrl-c to cancel it'
 }
 
